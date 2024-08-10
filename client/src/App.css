@@ -1,0 +1,76 @@
+.container{
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 5px 12px #555;
+  /* min-height: 100vh; */
+  padding: 4%;
+}
+h1{
+  text-align: center;
+  padding: 12px;
+}
+form{
+  width: 90%;
+  margin: auto;
+}
+form input{
+  width: 100%;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 40px;
+  border: solid 1px black;
+  padding: 0px 10px;
+}
+form input[type="submit"]{
+  background-color: rgb(0, 110, 255);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: 200ms;
+}
+form input[type="submit"]:hover{
+  background-color: rgb(0, 90, 220);
+  outline: 1px solid black;
+}
+form input[type="button"]{
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 200ms;
+}
+form input[type="button"]:hover{
+  background-color: #ddd;
+  outline: 1px solid black;
+}
+Header{
+  margin-bottom: 16px;
+  /* background-color: rgba(0, 110, 255, 0.200); */
+  /* border-radius: 4px; */
+  padding: 4px;
+}
+Header>nav>*,button{
+  color: white;
+  background-color: rgb(0, 110, 255);
+  border-radius: 4px;
+  padding: 6px;
+  text-decoration: none;
+  margin-right: 6px;
+  transition: 200ms;
+  cursor: pointer;
+}
+Header>nav>*:hover,button:hover{
+  background-color: rgb(0, 90, 220);
+}
+button{
+  border: none;
+}
+table{
+  width: 100%;
+}
+th,td:not(:last-child){
+  border: 1px solid #5553;
+  border-radius: 4px;
+}
